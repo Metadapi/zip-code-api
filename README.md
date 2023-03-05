@@ -11,11 +11,14 @@ To use any of the samples provided in this repository a [Zip Code API](https://w
 ## Samples
 
 ### Python
-`samples/Python` folder contanins the following:
+`samples/Python` folder contanins the following samples:
 
+[Enhance Zip Code Data with Python](https://www.metadapi.com/Blog/python-code-to-enhance-zip-codes):
 - `zip-code-append-data-to-file.py` This example opens a text file with a list of zip codes and then creates a csv files with enhanced data for each of those zip codes using the zip code details API.
 - `sample-zips.txt` This file contains a list of zip codes. One per line.
 
+### Azure Data Factory
 `samples/Azure-Data-Factory/Dynamic-API-External-Call` folder contanins the following:
 
-- `metadapi-zip-code-adf-syntax,txt` Azure Data Factory syntax version of the Zip Code API Payload. 
+[Dynamically Invoking REST API with Data Factory](https://www.metadapi.com/Blog/dynamically-invoking-rest-api-with-data-factory)
+- `metadapi-zip-code-adf-syntax.txt` Azure Data Factory syntax version of the Zip Code API Payload. 
