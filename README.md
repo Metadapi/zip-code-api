@@ -2,9 +2,21 @@
 ---
 ## Overview
 
-The Zip Code API provides United States zip code data with a comprehensive data model in JSON format. Using REST design, this API can help you build zip validations, city searches, distance calculations, radius searches and many other key functions for your applications.
+The US Zip Code API, which encompasses multiple endpoints, supplies an enhanced JSON-formatted data model for United States zip code information. Employing REST design principles, this versatile API enables you to integrate essential functionalities like zip code validations, city searches, distance calculations, radius searches, and more into your applications. 
 
 This repository contains sample code that can help demonstrate some of the functionality the **Zip Code API** enables. 
+
+This API is enabled by the following endpoints:
+
+- **Get Zip Code**. This end point takes the 5 digit zip code in the endpoint path and returns all details for that zip code.
+- **List All Zip Codes**. Returns a list of zip codes. Includes 16 query string parameters that can help you filter your search criteria.
+- **Distance Between 2 Zip Codes**. Gets the distance (in miles and kilometers) between 2 zip codes passed as parameters. There are 2 mandatory query parameters (zipCode1 and zipCode2).
+- **Zip Code Radius**. Endpoint that returns the zip codes that fall within the specified radius of another zip code. The returned zip codes are sorted by distance.
+- **List all MSA Groups**. This end point lists all the Metropolitan and Micropolitan Statistical Areas in the United States with the corresponding states and counties that make up the group.
+- **MSA Details**. Gets the details of a single Metropolitan Statistical Area code passed as a path parameter.
+- **Validate key**. Endpoint used to validate license key only. Returns 204 on Success. Simple way to test connection or ping zip code service. 
+
+Check the [Zip Code API Documentation](https://metadapi.stoplight.io/docs/api/f4e77dc2eaf4d-zip-code-data-api) for full details of the API. 
 
 To use any of the samples provided in this repository a [Zip Code API](https://www.metadapi.com/API-Products/Zip-Code-API) key is needed. 
 
