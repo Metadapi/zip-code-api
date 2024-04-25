@@ -26,7 +26,7 @@ To use any of the samples provided in this repository a [Zip Code API](https://w
 `samples/Python` folder contanins the following samples:
 
 [Enhance Zip Code Data with Python](https://www.metadapi.com/Blog/python-code-to-enhance-zip-codes):
-- `zip-code-append-data-to-file.py` This example opens a text file with a list of zip codes and then creates a csv files with enhanced data for each of those zip codes using the zip code details API.
+- [`zip-code-append-data-to-file.py`](samples/Python/zip-code-append-data-to-file.py) This example opens a text file with a list of zip codes and then creates a csv files with enhanced data for each of those zip codes using the zip code details API.
 - `sample-zips.txt` This file contains a list of zip codes. One per line.
 
 [Get Population by Zip Code](https://www.metadapi.com/Blog/get-us-population-by-zip-code)
