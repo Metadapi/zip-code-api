@@ -4,7 +4,7 @@
 
 The US Zip Code API, which encompasses multiple endpoints, supplies an enhanced JSON-formatted data model for United States zip code information. Employing REST design principles, this versatile API enables you to integrate essential functionalities like zip code validations, city searches, distance calculations, radius searches, and more into your applications. 
 
-This repository contains sample code that can help demonstrate some of the functionality the **Zip Code API** enables. 
+This repository contains sample code that can help demonstrate some of the functionality the [**Zip Code API**](https://www.metadapi.com/API-Products/Zip-Code-API) enables. 
 
 This API is enabled by the following endpoints:
 
