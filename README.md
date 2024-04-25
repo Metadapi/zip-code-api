@@ -25,15 +25,22 @@ To use any of the samples provided in this repository a [Zip Code API](https://w
 ### Python
 `samples/Python` folder contanins the following samples:
 
-[Enhance Zip Code Data with Python](https://www.metadapi.com/Blog/python-code-to-enhance-zip-codes):
+**Enhance Zip Code Data with Python**:
+- Blog article that explains how to [Enhance Zip Code Data with Python](https://www.metadapi.com/Blog/python-code-to-enhance-zip-codes) 
 - [`zip-code-append-data-to-file.py`](samples/Python/zip-code-append-data-to-file.py) This example opens a text file with a list of zip codes and then creates a csv files with enhanced data for each of those zip codes using the zip code details API.
-- `sample-zips.txt` This file contains a list of zip codes. One per line.
+- [`sample-zips.txt`](samples/Python/sample-zips.txt) This file contains a list of zip codes. One per line.
 
-[Get Population by Zip Code](https://www.metadapi.com/Blog/get-us-population-by-zip-code)
-- `zip-code-plot-population-growth.py` This example gets plots the yearly population of multiple zip codes in a line graph. 
+**Get Population by Zip Code**:
+- Blog article that explains how to [Get Population by Zip Code](https://www.metadapi.com/Blog/get-us-population-by-zip-code)
+- [`zip-code-plot-population-growth.py`](samples/Python/zip-code-plot-population-growth.py) This example gets plots the yearly population of multiple zip codes in a line graph. 
+
+**Calling APIs in Parallel**:
+- Blog article that explains how to [Call Zip Code APIs in Parallel](https://www.metadapi.com/Blog/maximizing-efficiency-calling-apis-in-parallel)
+- [`zip-code-parallel-api-calls.py`](samples/Python/zip-code-parallel-api-calls.py) Python code with example on how to call API's in parallel. 
 
 ### Azure Data Factory
 `samples/Azure-Data-Factory/Dynamic-API-External-Call` folder contanins the following:
 
-[Dynamically Invoking REST API with Data Factory](https://www.metadapi.com/Blog/dynamically-invoking-rest-api-with-data-factory)
-- `metadapi-zip-code-adf-syntax.txt` Azure Data Factory syntax version of the Zip Code API Payload. 
+**Dynamically Invoking REST API with Data Factory**:
+- Blog article that explains step by step how to [Dynamically Invoking REST API with Data Factory](https://www.metadapi.com/Blog/dynamically-invoking-rest-api-with-data-factory)
+- [`metadapi-zip-code-adf-syntax.txt`](samples/Azure-Data-Factory/Dynamic-API-External-Call/metadapi-zip-code-adf-syntax.txt)Azure Data Factory syntax version of the Zip Code API Payload. 
