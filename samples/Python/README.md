@@ -1,6 +1,6 @@
 # 🚀 Zip Code API - Python Sample Codes
 
-Welcome to the **Zip Code API Python Sample Code Repository!** This folder contains easy-to-use Python examples to help you integrate the powerful **[MetadAPI Zip Code API](https://www.metadapi.com/API-Products/Zip-Code-API)** into your projects effortlessly.
+Welcome to the **Zip Code API Python Sample Code Repository!** This folder contains easy-to-use Python examples to help you integrate the powerful **[MetadAPI Zip Code API](https://www.metadapi.com/API-Products/Zip-Code-API)** into your projects effortlessly. Visit [Metadapi](https://www.metadapi.com) to view all our data API's
 
 ## 🔥 Why Use This API?
 The **Zip Code API** gives you instant access to essential location data, including:
